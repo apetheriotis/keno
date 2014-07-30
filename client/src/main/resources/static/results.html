@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        canvas,img {
+            display:block;
+            border:1px solid #000;
+            margin:1em auto;
+        }
+
+        body {
+            background:
+            radial-gradient(black 15%, transparent 16%) 0 0,
+            radial-gradient(black 15%, transparent 16%) 8px 8px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+            background-color:#282828;
+            background-size:16px 16px;
+        }
+
+        input[type=button] {
+            color:#08233e;
+            font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+            font-size:70%;
+            padding:14px;
+            background:url(overlay.png) repeat-x center #ffcc00;
+            background-color:rgba(255,204,0,1);
+            border:1px solid #ffcc00;
+            -moz-border-radius:10px;
+            -webkit-border-radius:10px;
+            border-radius:10px;
+            border-bottom:1px solid #9f9f9f;
+            -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+            -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+            box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+            cursor:pointer;
+        }
+
+        input[type=button]:hover {
+            background-color:rgba(255,204,0,0.8);
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div id="page"  width="100%" height="100%">
+        <div id="selectionAreaDiv"  width="50%"  style="float: inline">
+            <canvas id="selectionArea" width="660px" height="530" ></canvas>
+        </div>
+        <div id="selectedData"  width="50%"  style="float: inline" >
+            <canvas id="selectedDataArea" width="660px" height="60px" ></canvas>
+        </div>
+        <div id="submit" style="width:660px; float: inline; border:1px solid #000; margin:1em auto;">
+           <input type="button" id="myBtn" onclick="myFunction()" value="Check ticket">
+            <textarea id="drawIdAread" rows="1" cols="37"></textarea>
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script SRC="results.js"></script>
+</body>
+</html>

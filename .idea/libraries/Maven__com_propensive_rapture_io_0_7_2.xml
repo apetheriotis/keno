@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.propensive:rapture-io:0.7.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/propensive/rapture-io/0.7.2/rapture-io-0.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/propensive/rapture-io/0.7.2/rapture-io-0.7.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/propensive/rapture-io/0.7.2/rapture-io-0.7.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
